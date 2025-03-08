@@ -1,19 +1,21 @@
 #include <iostream>
 using namespace std;
 int main (){
-	int a = 5;
-	cout << "Liczba A:" <<a<<endl;
+int a ;
+int b ;
+int suma ;
+int roznica ;
+int iloczyn;
+cout << "Liczba A:";cin >> a;
+cout << "Liczba B:";cin >>b;
 
-	int b = 3;
-cout << "Liczba B:" <<b<<endl;
+(suma = a+b);
+cout << "Suma:"<<suma<<endl;
 
-	int c = 8;
-cout << "Suma:" <<c<<endl;
+(roznica = a-b);
+cout << "Roznica:"<<roznica<<endl;
 
-	int d = 2;
-cout << "Roznica:" <<d<<endl;
-
-	int e = 15;
-cout << "Iloczyn:" <<e<<endl;
-	return 0;
+(iloczyn = a*b);
+cout << "Iloczyn:"<<iloczyn<<endl;
+return 0;
 }
