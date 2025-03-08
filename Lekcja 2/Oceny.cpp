@@ -1,9 +1,8 @@
-
 #include <iostream>
 using namespace std;
 int main(){
-	int liczba ;
-	cout << "Podaj wynik egzaminu (liczba punktow) : "; 
+int liczba ;
+cout << "Podaj wynik egzaminu (liczba punktow) : "; 
 cin >> liczba; 	
 if ((liczba >= 0) && (liczba <= 49)) {
     cout << "Ocena Niedostaczena" << endl;
